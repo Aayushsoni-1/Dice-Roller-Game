@@ -1,0 +1,31 @@
+h1, h2{
+    text-align: center;
+}
+.mainBox{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.mainBox>input{
+    width: 100px;
+    height: 24px;
+}
+button{
+    background-color: rgb(66, 66, 255);
+    text-align: center;
+    color: white;
+    height: 25px;
+    width: 50px;
+    border: 2px solid white;
+}
+.image-wrapper{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-wrapper>img{
+    height: 80px;
+    width: 80px;
+}
